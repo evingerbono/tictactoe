@@ -6,6 +6,9 @@ class JatekPanel{
         this.kovetJ = $('p:last-child');
         szuloElem.append(`<p></p>`);
         this.vege = $('p:last-child');
+        console.log(this.lepes);
+        console.log(this.kovetJ);
+        console.log(this.vege);
 
     }
 
