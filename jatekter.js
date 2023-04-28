@@ -23,6 +23,7 @@ class Jatekter {
             jPanel.setLepes(this.#lepes);
             if (this.#lepes===9) {
                 jPanel.setVege("Vége");
+                jPanel.setKovJ(null);
             }else{
                 jPanel.setVege("Még nincs vége");
             }
